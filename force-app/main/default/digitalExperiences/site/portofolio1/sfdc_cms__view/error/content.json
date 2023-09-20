@@ -1,0 +1,60 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Error",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"95d56614-635a-40de-ad7e-de19ba709893\",\"columns\":[{\"UUID\":\"6a3c1378-9eac-4951-85fd-6656ac8c2d0b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<h1 style=\"text-align: center;\">Invalid Page</h1>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "9ffe18ce-bf01-4984-b200-5f6141ba3392",
+              "type" : "component"
+            } ],
+            "id" : "6a3c1378-9eac-4951-85fd-6656ac8c2d0b",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "95d56614-635a-40de-ad7e-de19ba709893",
+          "type" : "component"
+        } ],
+        "id" : "fd5d7b03-1ac4-4478-bde4-c7489c4572e7",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Error",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "dd1c96db-d908-432f-ba88-e77336b1af8a",
+          "type" : "component"
+        } ],
+        "id" : "ae3ec749-8587-4b49-a3f3-85ce59606e4b",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "49f1e716-6d68-47cc-a305-d11036deb490",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "error"
+  }
+}

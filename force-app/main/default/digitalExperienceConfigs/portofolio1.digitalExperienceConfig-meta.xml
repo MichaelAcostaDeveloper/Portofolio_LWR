@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DigitalExperienceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>portofolio</label>
+    <site>
+        <urlPathPrefix>portofolio</urlPathPrefix>
+    </site>
+    <space>site/portofolio1</space>
+</DigitalExperienceConfig>
