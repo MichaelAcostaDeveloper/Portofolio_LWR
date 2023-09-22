@@ -1,0 +1,35 @@
+img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+p{
+    font-size: 16px;
+    padding: 4px;
+}
+button{
+    margin-top: 8px;
+    border-radius: 4px;
+    padding: 4px;
+}
+.container-main{
+display: grid;
+grid-template-columns:1fr 1fr;
+}
+
+.call-to-action{
+    text-align: center;
+}
+ @media only screen and (max-width:768px) {
+    .container-main{
+        display: block
+        }
+    
+ }

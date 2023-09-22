@@ -1,0 +1,20 @@
+label, input, textarea {
+    display: block;
+    width: 100%;
+}
+
+label{
+    text-align: left;
+    margin-top: 12px;
+}
+textarea{
+    margin-top: 12px;
+}
+.btn-container{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn-container > *{
+    width: 40%;
+}

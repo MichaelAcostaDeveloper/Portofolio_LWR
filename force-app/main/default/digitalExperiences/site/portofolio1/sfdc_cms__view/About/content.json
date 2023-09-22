@@ -1,6 +1,6 @@
 {
   "type" : "sfdc_cms__view",
-  "title" : "Home",
+  "title" : "About",
   "contentBody" : {
     "component" : {
       "children" : [ {
@@ -8,35 +8,25 @@
           "attributes" : {
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
-            "sectionConfig" : "{\"UUID\":\"b1caea1a-92e4-496b-a426-a2f31daaaf0a\",\"columns\":[{\"UUID\":\"bc82af20-8b6b-46f2-9499-f56a64085cce\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+            "sectionConfig" : "{\"UUID\":\"ffbd3cfe-2b1d-4edf-b781-30af2fcef0e2\",\"columns\":[{\"UUID\":\"488329f6-2bcc-45b7-8ddf-53571f59ce80\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
           },
           "children" : [ {
             "children" : [ {
               "attributes" : { },
-              "definition" : "c:bussines",
-              "id" : "2a2e47d7-e798-4b28-9410-a678477be4b6",
-              "type" : "component"
-            }, {
-              "attributes" : { },
-              "definition" : "c:skillsCards",
-              "id" : "e43dc8d3-2d46-4143-90b7-c1fba7c9800e",
-              "type" : "component"
-            }, {
-              "attributes" : { },
               "definition" : "c:aboutMe",
-              "id" : "a3e294b9-e2ba-44dc-a14b-d50180cd9e8a",
+              "id" : "fcebd37b-0e44-470d-918f-baec5d73bede",
               "type" : "component"
             } ],
-            "id" : "bc82af20-8b6b-46f2-9499-f56a64085cce",
+            "id" : "488329f6-2bcc-45b7-8ddf-53571f59ce80",
             "name" : "col1",
             "title" : "Column 1",
             "type" : "region"
           } ],
           "definition" : "community_layout:section",
-          "id" : "b1caea1a-92e4-496b-a426-a2f31daaaf0a",
+          "id" : "ffbd3cfe-2b1d-4edf-b781-30af2fcef0e2",
           "type" : "component"
         } ],
-        "id" : "9d127e24-9079-4725-b459-4076a1c5cadb",
+        "id" : "902ab1f0-d99f-477b-996d-aeaccd142479",
         "name" : "content",
         "title" : "Content",
         "type" : "region"
@@ -45,24 +35,24 @@
           "attributes" : {
             "customHeadTags" : "",
             "description" : "",
-            "pageTitle" : "Home",
+            "pageTitle" : "About",
             "recordId" : "{!recordId}"
           },
           "definition" : "community_builder:seoAssistant",
-          "id" : "fb665a83-e029-4b82-9420-802975c362fd",
+          "id" : "eb3d38fe-7eff-42f3-872a-64056c82d7a1",
           "type" : "component"
         } ],
-        "id" : "89b7e824-aa0c-4cb7-8830-48660b7b493f",
+        "id" : "0f8ea3d6-2874-40c9-88db-7ef73d32f034",
         "name" : "sfdcHiddenRegion",
         "title" : "sfdcHiddenRegion",
         "type" : "region"
       } ],
       "definition" : "community_layout:sldsFlexibleLayout",
-      "id" : "defdbf3f-4037-4ec8-bffc-36d73d03bfd6",
+      "id" : "69028877-e18e-4f6e-9c11-4aae1033e789",
       "type" : "component"
     },
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
-    "viewType" : "home"
+    "viewType" : "custom-about"
   }
 }

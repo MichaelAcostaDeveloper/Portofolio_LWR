@@ -1,6 +1,6 @@
 {
   "type" : "sfdc_cms__view",
-  "title" : "Home",
+  "title" : "skills",
   "contentBody" : {
     "component" : {
       "children" : [ {
@@ -8,35 +8,25 @@
           "attributes" : {
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
-            "sectionConfig" : "{\"UUID\":\"b1caea1a-92e4-496b-a426-a2f31daaaf0a\",\"columns\":[{\"UUID\":\"bc82af20-8b6b-46f2-9499-f56a64085cce\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+            "sectionConfig" : "{\"UUID\":\"ddfb6c22-c49b-44f2-b71d-824e4b4b6df9\",\"columns\":[{\"UUID\":\"512f43d5-7da8-40c0-a01c-89929f05c9f6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
           },
           "children" : [ {
             "children" : [ {
               "attributes" : { },
-              "definition" : "c:bussines",
-              "id" : "2a2e47d7-e798-4b28-9410-a678477be4b6",
-              "type" : "component"
-            }, {
-              "attributes" : { },
               "definition" : "c:skillsCards",
-              "id" : "e43dc8d3-2d46-4143-90b7-c1fba7c9800e",
-              "type" : "component"
-            }, {
-              "attributes" : { },
-              "definition" : "c:aboutMe",
-              "id" : "a3e294b9-e2ba-44dc-a14b-d50180cd9e8a",
+              "id" : "54ccaf3d-2546-4016-ad9a-f02b850b5a5b",
               "type" : "component"
             } ],
-            "id" : "bc82af20-8b6b-46f2-9499-f56a64085cce",
+            "id" : "512f43d5-7da8-40c0-a01c-89929f05c9f6",
             "name" : "col1",
             "title" : "Column 1",
             "type" : "region"
           } ],
           "definition" : "community_layout:section",
-          "id" : "b1caea1a-92e4-496b-a426-a2f31daaaf0a",
+          "id" : "ddfb6c22-c49b-44f2-b71d-824e4b4b6df9",
           "type" : "component"
         } ],
-        "id" : "9d127e24-9079-4725-b459-4076a1c5cadb",
+        "id" : "063827b1-ff2a-451d-9230-3c717e1f790f",
         "name" : "content",
         "title" : "Content",
         "type" : "region"
@@ -45,24 +35,24 @@
           "attributes" : {
             "customHeadTags" : "",
             "description" : "",
-            "pageTitle" : "Home",
+            "pageTitle" : "skills",
             "recordId" : "{!recordId}"
           },
           "definition" : "community_builder:seoAssistant",
-          "id" : "fb665a83-e029-4b82-9420-802975c362fd",
+          "id" : "3b0e0b6e-ec83-4250-9538-341b9e946bbd",
           "type" : "component"
         } ],
-        "id" : "89b7e824-aa0c-4cb7-8830-48660b7b493f",
+        "id" : "450b3b10-5a56-4efc-bbbc-bb40fb0b53c6",
         "name" : "sfdcHiddenRegion",
         "title" : "sfdcHiddenRegion",
         "type" : "region"
       } ],
       "definition" : "community_layout:sldsFlexibleLayout",
-      "id" : "defdbf3f-4037-4ec8-bffc-36d73d03bfd6",
+      "id" : "4f986c0d-732d-4dc9-a82c-2f1d5178ba43",
       "type" : "component"
     },
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
-    "viewType" : "home"
+    "viewType" : "custom-skills"
   }
 }

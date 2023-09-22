@@ -1,6 +1,17 @@
 import { LightningElement } from 'lwc';
-import IMAGES from '@salesforce/resourceUrl/ImagenesSites';
+import { NavigationMixin } from 'lightning/navigation';
 
-export default class Hero extends LightningElement {
-    imageURL = IMAGES + '/tarjetaPC.jpg';
+export default class Hero extends NavigationMixin(LightningElement){
+
+    handleComenzar(event){
+        event.preventDefault();
+        console.log("abriendo nueva pagina...");
+
+        this[NavigationMixin.Navigate]({
+            type: 'custom__component',
+            attributes: {
+                componentName: 'c__bussines'
+            }
+        });
+    }
 }
