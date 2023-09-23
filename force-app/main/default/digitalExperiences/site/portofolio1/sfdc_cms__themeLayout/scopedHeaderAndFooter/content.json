@@ -39,6 +39,20 @@
             "sectionConfig" : "{\"UUID\":\"3056801f-60bd-4554-8b9d-a5744d1ac5de\",\"columns\":[{\"UUID\":\"626aaf78-1fe9-4397-aee3-38dd123a9f32\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
           },
           "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "This site built with LWC running in LWR",
+                "textAlign" : "center",
+                "textDecoration" : "{\"bold\":false,\"italic\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "812de72f-141b-4dcd-bab8-06ddd84134b6",
+              "type" : "component"
+            } ],
             "id" : "626aaf78-1fe9-4397-aee3-38dd123a9f32",
             "name" : "footerSection",
             "title" : "Theme Footer",
