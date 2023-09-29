@@ -1,6 +1,7 @@
 <template>
     <header></header>
     <main>
+        <!-- <a name="home"></a> -->
         <section class="section_Up">
             <div class="main-nav_tituloOne">
                 <p class="main-nav_tituloOne_item"><strong>Solicitud de crédito educativo</strong></p>
@@ -17,23 +18,30 @@
             <div class="main-section_derecha">
                 <p class="main-section_derecha_itemOne">Tu sueño empieza a cumplirse ¡hoy!</p>
                 <p class="main-section_derecha_itemDos">Verifica tus datos para poder llamarte</p>
-                <form action="" class="main-section_derecha_formulario" onsubmit={handleComenzar}>
+                <form action="" class="main-section_derecha_formulario" >
                     <label for="cedula" class="main-section_derecha_formulario_item">
                         <span>Cédula</span>
-                        <input type="text" id="cedula" name="cedula" placeholder="1723232345" required>
+                        <input type="text" id="cedula" class="cedula" placeholder="1723232345" onchange={handleCedulaChange} value={cedula} required >
                     </label>
                     <label for="nombre" class="main-section_derecha_formulario_item">
                         <span>Nombres</span>
-                        <input type="text" id="nombre" name="nombre" placeholder="Fernando" required>
+                        <input type="text" id="nombre" class="nombre" placeholder="Fernando" onchange={handleFirstNameChange} value={firstName} required >
                     </label>
                     <label for="apellido" class="main-section_derecha_formulario_item">
                         <span>Apellidos</span>
-                        <input type="text" id="apellido" name="apellido" placeholder="Acosta" required>
+                        <input type="text" id="apellido" class="apellido" placeholder="Acosta" onchange={handleLastNameChange} value={lastName} required >
                     </label>
-                    <button type="submit">Comenzar</button>
+                        <button type="submit" href="/universidad">Comezar</button>
+                        <!-- <a href="/universidad" onclick={createStudent}>Comenzar</a> -->
                 </form>
             </div>
         </section>
     </main>
     <footer></footer>
 </template>
+
+
+<!-- onchange={handleCedulaChange}
+onchange={handleFirstNameChange}
+onchange={handleLastNameChange} 
+onsubmit={createStudent}-->

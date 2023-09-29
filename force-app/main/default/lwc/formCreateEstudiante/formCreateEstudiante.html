@@ -1,0 +1,8 @@
+<template>
+    <div class="form-container">
+        <lightning-input label="Nombre" value={firstName} required onchange={handleFirstNameChange}></lightning-input>
+        <lightning-input label="Apellido" value={lastName} required onchange={handleLastNameChange}></lightning-input>
+        <lightning-input label="Cédula" value={cedula} required onchange={handleCedulaChange}></lightning-input>
+        <lightning-button class="custom-button" label="Crear Estudiante" onclick={createStudent}></lightning-button>
+    </div>
+</template>

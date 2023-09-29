@@ -1,0 +1,53 @@
+<template>
+    <header></header>
+    <main>
+        <a name="universidad"></a>
+        <section class="section_Up">
+            <div class="main-nav_tituloOne">
+                <p class="main-nav_tituloOne_item"><strong>Solicitud de crédito educativo</strong></p>
+            </div>
+            <!-- <div class="main-nav_tituloDos">
+                <p class="main-nav_tituloDos_item">Esta solicitud está disponible solo para nuestros clientes.¿Aún no lo eres? <a href="https://cuentasimple.pichincha.com/electronico?utm_source=portal&utm_medium=referral&utm_campaign=cuentasimple&utm_content=btn_home_abrir_cuenta">Abre tu cuenta en línea</a></p>
+            </div> -->
+        </section>
+
+        <section class="section_Down">
+            <div class="main-section_izquierda">
+                <p><strong>¡Llegaste al lugar correcto!</strong> Completa tu solicitud para que un asesor te ayude a conseguir tu crédito educativo</p>
+            </div>
+            <div class="main-section_derecha">
+                <p class="main-section_derecha_itemOne">Tu solicitud está casi lista</p>
+                <p class="main-section_derecha_itemDos">Danos información de tu carrera</p>
+                <form action="" class="main-section_derecha_formulario" onsubmit={handleComenzar}>
+                    <label for="universidad" class="main-section_derecha_formulario_item">
+                        <span>Universidad</span>
+                        <select name="universidad" >
+                            <option value="USFQ">USFQ</option>
+                            <option value="UTPL">UTPL</option>
+                            <option value="EPN">EPN</option>
+                            <option value="UDLA">UDLA</option>
+                            <option value="ESPE">ESPE</option>
+                        </select>
+                    </label>
+                    <label for="valorCarrera" class="main-section_derecha_formulario_item">
+                        <span>Valor de la carrera</span>
+                        <input type="text" id="valorCarrera" name="valorCarrera" placeholder="$45000" required>
+                    </label>
+                    <label for="nivelEstudios" class="main-section_derecha_formulario_item">
+                        <span>Nivel de estudios: </span>
+                        <label for="pregrado">Pregrado</label>
+                        <input type="radio" name="nivel" value="pregrado">
+                        <label for="postgrado">Postgrado</label>
+                        <input type="radio" name="nivel" value="postgrado">
+                    </label>
+                    <a href="/">Regresar</a>
+                    <button type="submit">Enviar solicitud</button>
+                </form>
+                <p class="main-section_derecha_textoAutorizacion">
+                    Con el click en "Enviar solicitud" autorizas a Banco Pichincha a obtener datos personales o crediticios de fuentes legales de información y su tratamiento.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</template>

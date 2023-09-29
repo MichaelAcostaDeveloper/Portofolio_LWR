@@ -1,11 +1,12 @@
 import { LightningElement, track } from 'lwc';
+import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 import controllerStudents from '@salesforce/apex/EstudianteController.createStudent';
 
-export default class Hero extends LightningElement{
-
+export default class CreateAccountButton extends LightningElement {
     @track firstName = '';
     @track lastName = '';
     @track cedula = '';
+
     handleFirstNameChange(event) {
         this.firstName = event.target.value;
     }
@@ -27,11 +28,4 @@ export default class Hero extends LightningElement{
         });
 
     }
-
-    presioname(){
-        console.log('presionado!!!!');
-    }
 }
-
-
-
